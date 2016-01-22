@@ -1,3 +1,31 @@
 h1 {
-  color: blue;
+  color:#FEFEFE;
+}
+h2 {
+  color: #FEFEFE;
+}
+.banniereintro {
+  background-image: url(../images/payments-banner-graphic.png);
+  width: 1400px;
+  height: 550px;
+}
+.bannieretext {
+  width: 1400px;
+  height: 550px;
+}
+.quick {
+  width: 400px;
+  height: 250px;
+}
+.beautiful {
+  width:400px;
+  height: 250px;
+}
+.secure {
+  width:400px;
+  height: 250px;
+}
+.paid {
+  width: 1400px;
+  height: 300px;
 }
