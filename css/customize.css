@@ -10,6 +10,9 @@
 h1,h2,h3 {
   color:#FEFEFE;
 }
+h3 {
+  padding: 0;
+}
 button {
   position: relative;
   margin-top: 200px;
@@ -17,8 +20,12 @@ button {
 }
 .banniereintro {
   background-image: url(../images/payments-banner-graphic.png);
-  width: 1400px;
+  max-width: 1400px;
   height: 550px;
+  margin-left: 0;
+  margin-right:0;
+  margin-top: 0;
+  margin: 0;
 }
 .banniereintro h1,h2 {
   text-align: center;
@@ -34,15 +41,46 @@ button {
   width: 400px;
   height: 250px;
 }
+.calendar {
+  background-image: url(../images/payments-calendar-icon.svg);
+  width: 130px;
+  height: 130px;
+}
 .beautiful {
   width:400px;
   height: 250px;
+}
+.mail {
+  background-image: url(../images/payments-mail-icon.svg);
+  width: 130px;
+  height: 130px;
 }
 .secure {
   width:400px;
   height: 250px;
 }
+.method {
+  background-image: url(../images/payments-methods-icon.svg);
+  width: 130px;
+  height: 130px;
+}
 .paid {
   width: 1400px;
   height: 300px;
+}
+.service01 {
+  background-image: url(../images/welcome-invoices-graphic-1.png);
+  background-color: #7CD5EF;
+  width: 582px;
+  height: 578px;
+}
+.service04 {
+  background-image: url(../images/welcome-invoices-graphic-2.png);
+  width: 582px;
+  height: 578px;
+}
+.service05 {
+  background-image: url(../images/welcome-invoices-graphic-3.png);
+  width: 582px;
+  height: 578px;
 }
